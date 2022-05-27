@@ -1,5 +1,6 @@
 package design_pattern.creational.factory;
 
+// Super Class
 public abstract class Animal {
     public abstract String getName();
     public abstract String getType();

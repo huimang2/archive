@@ -1,5 +1,6 @@
 package design_pattern.creational.factory;
 
+// Sub Class 1
 public class Dog extends Animal {
     private String type;
     private String name;
