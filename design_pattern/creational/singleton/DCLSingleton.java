@@ -2,7 +2,7 @@ package design_pattern.creational.singleton;
 
 public class DCLSingleton {
 
-    private static DCLSingleton INSTANCE = null;
+    private volatile static DCLSingleton INSTANCE = null;
 
     private DCLSingleton() {}
 
