@@ -15,10 +15,6 @@ public class Main {
         pushObj.PushMessages(personObjList);
 
         System.out.println("\n");
-
-        PushAdapterImpl2 pushObj2 = new PushAdapterImpl2();
-        pushObj2.PushMessage(personObjList.get(1));
-        pushObj2.PushMessages(personObjList);
     }
 
 }

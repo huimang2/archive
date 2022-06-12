@@ -3,6 +3,7 @@ package design_pattern.structural.adapter;
 import java.util.ArrayList;
 
 public class PushAdapterImpl2 implements PushAdapter {
+    
     private SendMessage sendMSG = new SendMessage();
 
     @Override
