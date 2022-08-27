@@ -4,7 +4,7 @@ function solution(n, apeach_info) {
     let apeach_score, ryan_score, best_info;
     let max_score_gap = 0;
     let max_depth = 0;
-    
+     
     function calc(ryan_info, remain) {
         
         let depth = ryan_info.length;
