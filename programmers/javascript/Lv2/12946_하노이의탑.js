@@ -7,4 +7,4 @@ function solution(n) {
 function hanoi(disk, from, remain, to) {   
     if(!disk) return [];
     return hanoi(disk-1, from, to, remain).concat([[from, to]], hanoi(disk-1, remain, from, to));
-}
+} 
