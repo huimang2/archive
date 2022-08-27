@@ -13,7 +13,7 @@ function solution(n, apeach_info) {
             ryan_info.push(remain);
             remain = 0;
         }
-
+ 
         if(!remain) {
 
             ryan_info.push(...Array(11-ryan_info.length).fill(0));
