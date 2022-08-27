@@ -19,10 +19,4 @@ function solution(queue1, queue2) {
     }
 
     return -1;
-<<<<<<< HEAD
 }
-=======
-}
-
-console.log(solution([1, 1, 1, 1, 1], [1, 1, 1, 9, 1]));
->>>>>>> d3e38e6 (update)
