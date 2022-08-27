@@ -6,7 +6,7 @@ function solution(maps) {
     const colLength = maps[0].length;
 
     const queue = [[0, 0, 1]];
-
+ 
     while(queue.length) {
         const [row, col, count] = queue.shift();
         if(row === rowLength - 1 && col === colLength - 1) return count;
