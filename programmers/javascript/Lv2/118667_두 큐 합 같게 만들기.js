@@ -19,8 +19,4 @@ function solution(queue1, queue2) {
     }
 
     return -1;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 65c7086 (프로그래머스 118667 문제 풀이)
