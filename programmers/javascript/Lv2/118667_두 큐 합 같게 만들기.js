@@ -20,5 +20,3 @@ function solution(queue1, queue2) {
 
     return -1;
 }
-
-console.log(solution([1, 1, 1, 1, 1], [1, 1, 1, 9, 1]));
